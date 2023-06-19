@@ -92,6 +92,8 @@ public class ContaCorrente {
                 System.out.printf("Data: "+ listaExtratos.get(i).data + ", Valor: %.2f\n", listaExtratos.get(i).valor);
             }      
         }
+
+        inicio();
     }
 
     public static void consultarSaldo(){
